@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+
+.fonte {
+  font-family: idroid;
+  color      : #0e6415;
+}
+
+header {
+  background-image: linear-gradient(to right, #1d7e27, #18a524, #188021);
+  color: white;
+  height: 140px;
+ 
+
+}
+
+header>h1{
+ margin-top: 0px;
+ 
+ 
+}
+
+h1 {
+  text-align: center;
+}
+
+header>p {
+  text-align: center;
+}
+
+nav>a {
+  text-decoration: none;
+  color          : white;
+}
+
+nav>a:hover {
+  color : #25af31d3;
+  border: 2px 2px 2px #0a8014d3;
+}
+
+body {
+  background-color: #84f3b4;
+  height          : 100%;
+}
+
+main {
+  background-color: white;
+  text-align      : center;
+  margin          : 10px 10px 10px;
+}
+
+h2 {
+  background-color: rgba(114, 245, 114, 0.575);
+}
+
+#basico {
+  color           : white;
+  background-color: #286442;
+  border-radius   : 8px;
+  width           : 450;
+  padding         : auto;
+
+}
+
+#direita {
+  text-align: right;
+}
+
+div {
+  display: inline-block;
+  width  : 350px;
+  height : 350px;
+}
+
+footer {
+  background-color: #69bd8d;
+  border-radius   : 25px;
+  width           : 450;
+  height          : 450;
+
+}
+
+#div01 {
+  width        : 1150px;
+  height       : 630px;
+  border-radius: 5px;
+}
+
+#div01>p {
+  text-align: justify;
+}
+
+#video {
+  background-color: #286442;
+
+}
+
+#div02 {
+  display: flex;
+  justify-content: auto;
+  margin: 25px;
+  width: auto;
+
+}
+
+#peloamor {
+  background-color: #286442;
+  width: 1000px;
+  border-radius: 5px;
+
+}
+
+#naoaguntomais {
+  display: block;
+}

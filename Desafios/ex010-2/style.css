@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: idroid;
+    src: url(font/idroid.otf);
+    color: #0e6415;
+}
+
+body {
+    background-color: #84f3b4;
+    margin-top: 0px;
+    margin-right: 250px;
+    margin-bottom: 0px;
+    margin-left: 250px;
+    
+}
+
+
+header {
+    height: auto;
+    text-align: center;
+    background-image: linear-gradient(to top, #389641, #36aa40, #448849);
+    color: white;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.562);
+    width: auto;
+    height: 150px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: 5px;
+    
+}
+
+nav > a:hover {
+    color: #298016;
+}
+
+nav>a::after {
+    text-decoration-style: none;
+}
+
+#div01{
+    background-image: linear-gradient(to top, #1d7e27, #18a524, #188021);
+}
+
+.font {
+     color: #0e5824;
+     font-family: idroid;
+     text-align: center;
+     background-color: white;
+}
+
+main {
+    background-color: white;
+}
+
+.font2 {
+    color: #0e5824;
+    font-family: idroid;
+    text-align: center;
+    background-color: #3cb460be;
+}
+
+.imagens01 {
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.imagens02 {
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+#video01 {
+    display: block;
+    background-color: #07491b;
+    width: 850px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #07491b;
+
+}
+
+#listas {
+    width: 750px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    background-color: #79d4a2be;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#listas > h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(73, 170, 102);
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+}
+
+#listas01 {
+    display: inline-block;
+}
+
+p > a {
+      text-decoration: underline;
+      color: rgb(2, 2, 2);
+}
+
+#listas02 {
+    display: inline-block;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: 225px;
+
+}
+
+#lista03 > footer {
+    text-align: center;
+    background-color: rgb(73, 170, 102);
+}
+
+#texto{
+    background-color: white;
+    padding-top: 5px;
+
+}
