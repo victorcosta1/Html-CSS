@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*font-family: 'Sriracha', cursive;*/
+
+/*font-family: 'Passion One', cursive;*/
+
+
+body {
+    margin: 0px;
+}
+
+html, body {
+        min-height: 100vh;
+        background-color: white;
+}
+
+
+header {
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+   
+}
+
+header > h1 {
+    color: white;
+    font-family: 'Passion One', cursive;
+    margin: 0px;
+    text-align: center;
+    font-size: 10vw;
+    font-variant: small-caps;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    padding-bottom: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+a:hover {
+    text-decoration: underline rgb(252, 252, 252);
+}
+/*---------------------------Header--------------------*/
+
+#img01 {
+    font-family: 'Sriracha', cursive;
+    color: black;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1em;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    color: black;
+    height: 670px;
+}
+
+section > p {
+    color: black;
+    font-family: 'Sriracha', cursive;
+}
+
+.fundo {
+    background-image: url(image/joaninha.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fundo > p {
+    
+    color: white;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    padding-left: 55px;
+    text-align: center;
+}
+
+#fundotransparente {
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 5px;
+}
+
+#img02 {
+    font-family: 'Sriracha', cursive;
+    color: black;
+}
+
+#img03 {
+    font-family: 'Sriracha', cursive;
+    color: black;
+}
+
+#fundo01 {
+    background-image: url(image/livro01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fundo01 > p {
+    
+    color: white;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    padding-left: 55px;
+    text-align: center;
+}
+
+#fundotransparente01 {
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 5px;
+}
+
+#img05 {
+    font-family: 'Sriracha', cursive;
+    color: black;
+}
+
+#img05 > p {
+    padding-top: 85px;
+}
+
+#img06 {
+    font-family: 'Sriracha', cursive;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    padding: 0px;
+}
+
+footer > p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
