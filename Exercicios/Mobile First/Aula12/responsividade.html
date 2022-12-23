@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link rel="stylesheet" href="./css/reset-min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
+</head>
+<body>
+
+    <header>
+        <h1>Responsividade</h1>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#" title="Link 1">Home</a></li>
+            <li><a href="#" title="Link 2">Sobre Nós</a></li>
+            <li><a href="#" title="Link 3">Galeria</a></li>
+            <li><a href="#" title="Link 4">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+
+        <section class="articles">
+
+            <article style="background-color: aqua;">
+                <h3>Web Dev</h3>
+                <p>A arte de desenvover sistemas de internet</p>
+            </article>
+
+            <article style="background-color: #a35b41;">
+                <h3>HTML</h3>
+                <figure>
+                    <img src="./img/html.png" alt="">
+                </figure>
+                <p>Linguagem de marcação responsável pelo conteúdo de um site.</p>
+            </article>
+
+            <article style="background-color: cornflowerblue;">
+                <h3>CSS</h3>
+                <figure>
+                    <img src="./img/css.png" alt="">
+                </figure>
+                <p>Linguagem de estilo responsável pela aparência</p>
+            </article>
+
+            <article style="background-color: darkgoldenrod;">
+                <h3>JS</h3>
+                <figure>
+                    <img src="./img/js.png" alt="">
+                </figure>
+                <p>Linguagem de script responsável pela dinâmica e recursos extras.</p>
+            </article>
+            
+        </section>
+
+        <section>
+
+            <form action="#"  class="newsletter">
+
+                <div id="formTitle">
+                    <h2>Assine Nossa Newsletter</h2>
+                </div>
+
+                <div id="formName">
+                    <label for="nome">Seu Nome:</label> <br>
+                    <input type="text" name="nome" id="nome" maxlength="60" placeholder="Informe seu Nome" required>
+                    
+                </div>
+
+                <div id="formMail">
+                    <label for="mail">Seu Email: </label> <br>
+                    <input type="email" name="mail" id="mail" maxlength="60" placeholder="Informe seu email" required>
+                   
+                </div>
+
+                <div id="formBtn">
+                    <button type="submit" name="send" id="send">
+                        Enviar
+                    </button>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <p>Este material é parte integrante do <strong>Módulo CSS do Curso Básico de Desenvolvimento Web do Prof. Luis Vulcanis</strong> &copy; 2021</p>
+
+        <address>
+            Contato: Prof. Luis Vulcanis - <a href="https://profluisvulcanis.pt" target="_blank" title="Site do Prof. Luis">www.profluisvulcanis.pt</a>
+        </address>
+
+    </footer>
+
+</body>
+</html>

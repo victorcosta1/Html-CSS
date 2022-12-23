@@ -1,0 +1,38 @@
+
+/*Tablets*/
+@media screen and (min-width: 768px) { /*Se a largura for Igual ou Mair que 768px obedece a nova regra*/
+    .articles, .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr; /*Define as colunas neste caso definimos duas colunas*/
+        column-gap: 0.5rem; /*Atribui e determina o espaço entra as colunas*/
+    }
+
+    .footer p{
+        text-align: right;
+    }
+}
+/*Desktops*/
+@media screen and (min-width: 1024px) {
+    .articles{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #formTitles{
+        grid-area: newsTitle;
+    }
+    #formName{
+        grid-area: newsName;
+    }
+    #formMail{
+        grid-area: newsMail;
+    }
+    #formBtn{
+        grid-area: newsBtn;
+    }
+    .newsletter{
+        display: grid;
+        grid-template-areas: 
+        'newsTitle newsTitle'
+        'newsName newsMail'
+        'newsBtn newsBtn';
+    }
+}

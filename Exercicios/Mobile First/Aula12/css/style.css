@@ -1,0 +1,127 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 0.6rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+}
+
+p {
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+}
+
+header {
+    background-color: crimson;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    padding: 1rem 0.3rem;
+}
+
+nav {
+    background-color: blueviolet;
+    padding: 1rem 0.2rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    text-shadow: 0 0 5px yellow;
+}
+
+main {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-image: linear-gradient(#ccc, #777);
+    border-radius: 0.4rem;
+}
+
+main section {
+    margin-bottom: 1em;
+}
+
+main section article {
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+main section article figure {
+    margin: 0.5rem;
+}
+
+main section article figure img {
+    width: 100%;
+}
+
+main section form {
+    margin: 2%;
+}
+
+main section form div {
+    margin: 0.5rem;
+}
+
+main section form div label {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+main section form div input {
+    width: 98%;
+    font-size: 1.3em;
+    border: none;
+    background: none;
+    border-bottom: 1px solid crimson;
+}
+
+main section form div input:focus {
+    background: crimson;
+}
+
+main section form div button {
+    background: crimson;
+    color: whitesmoke;
+    border: none;
+    width: 100%;
+    font-size: 1.4rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 00.5rem;
+    transition: 0.5s;
+}
+
+main section form div button:hover {
+    background: black;
+    text-shadow: 0 0 0.3rem whitesmoke;
+}
+
+footer {
+    background: crimson;
+    color: whitesmoke;
+    padding: 2rem 0.5rem;
+}
